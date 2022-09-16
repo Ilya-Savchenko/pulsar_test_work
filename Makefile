@@ -1,3 +1,5 @@
+venv:
+	pipenv install
 run: migrate
 	python3 project/manage.py runserver
 
